@@ -7,4 +7,4 @@ def main(text):
     return output.rstrip(" ") # Deletes space in the end of the result
 
 if __name__ == '__main__':
-    main(input('Input your sentence: '))
+    print(main(input('Input your sentence: ')))
